@@ -1,14 +1,16 @@
-// Step 5: Import Echo, Air, and Templ
+// Step 5: Import Echo, Air, and Templ packages
 package main
 
 import (
-	"github.com/labstack/echo/v4"
+	"fmt"
 )
 
 func main() {
     // Step 6: Initialize Echo, Air, and Templ
-    e := echo.New()
+    // e := echo.New()
 
     // Initialize Air and Templ as needed
     // ...
+
+    fmt.Printf("hello world")
 }
